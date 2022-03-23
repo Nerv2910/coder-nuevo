@@ -74,7 +74,7 @@ main .main-list li a {
   text-decoration: none;
   border-radius: 10px;
 }
-main .main-list .main-list li a:hover {
+main .main-list li a :hover {
   background-color: blue;
 }
 main .color {
@@ -98,7 +98,7 @@ main .color {
 }
 
 .slider__img {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 @keyframes cambio {
