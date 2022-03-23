@@ -24,7 +24,7 @@ a {
     text-decoration: none;
 }
 header {
-    background-color: whitesmoke;
+    background-color: $bg-header;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,13 +95,202 @@ main{
     
 
 }
+.slider{  margin: auto;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    .slider>ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite alternate ease;
+    }}
+.slider__img {
+        max-width: 600px;
+    }
+@keyframes cambio {
 
-
-
-
-
-
-@media (max-width: 320px) {
+        0% {
+            margin-left: 0;
+        }
+    
+        20% {
+            margin-left: 0;
+        }
+    
+        25% {
+            margin-left: -100%;
+        }
+    
+        45% {
+            margin-left: -100%;
+        }
+    
+        50% {
+            margin-left: -200%;
+        }
+    
+        70% {
+            margin-left: -200%;
+        }
+    
+        75% {
+            margin-left: -300%;
+        }
+    
+        100% {
+            margin-left: -300%;
+        }
+    }
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 15.625rem;
+        background-color: whitesmoke;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        img { width: 125px;
+            height: 125px;}
+    }
+    .card-img {
+        width: 100%;
+    }
+    .button-card a {
+        color: #000000;
+        font-size: 1.2rem;
+    }
+    .button-card {
+        background-color: paleturquoise;
+        border-radius: 3px;
+        border: 1px solid gold;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        margin: auto;
+    }
+    .main-pages {
+        width: 100%;
+    
+    }
+    
+    .contenido-pages {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+    
+    .titulo {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+        .titulo:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+    .card-pages {
+        margin: 1.5rem;
+        .card-pages img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .card-text {
+        font-size: 1.2rem;
+        text-align: center;
+    
+    }
+    .section-nosotros {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .historia {
+        grid-column: 1/2;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+    .subtitulo {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 1rem;
+    }
+    
+    .nos-p {
+        line-height: 1.5;
+    }
+    
+    .compromiso {
+        grid-column: 2/3;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    .marcas {
+        grid-column: 3/4;
+        ul {display: block;
+            text-align: center;
+        li { font-size: 1.5rem;
+            margin-top: 2rem;}}
+    }
+    footer {
+        width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 2px solid rgba(157, 168, 177, 0.5);
+    ul {display: flex;
+        flex-direction: column;}
+        .footer-img {
+            width: 59px;
+            height: 59px;
+            margin: 0.2rem;
+            padding: 0.5rem;
+        
+        }
+        
+        .footer-nos {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+        }
+        
+        .footer-input {
+            max-width: 50rem;
+            height: 50px;
+            border-radius: 10px;
+            font-size: 1.5rem;
+        
+        }
+        
+        #gmap_canvas {
+            max-width: 250px;
+            max-height: 150px;
+        }
+        
+        .canvas-maps {
+            color: grey;
+        }
+        
+        .formulario{
+            padding: 0.5rem;
+        }
+    }
+    @media (max-width: 320px) {
     header {
         img {width: 9rem;}
         input {display: none;}
