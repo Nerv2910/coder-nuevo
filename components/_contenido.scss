@@ -46,9 +46,7 @@ header {
     nav {
         ul {
             li {
-                a .instagram {
-                    width: 61px;
-                    height: 59px;
+                a {
                     img {
                         width: 50px;
                         height: 50px;
@@ -58,6 +56,9 @@ header {
                         border-bottom: none
 
                     }
+                    .instagram {
+                        width: 61px;
+                        height: 59px;}
                 }
             }
         }
