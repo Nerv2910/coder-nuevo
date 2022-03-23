@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 body {
@@ -54,12 +54,8 @@ header {
                         display: flex;
                         flex-direction: row;
                         border-bottom: none
-
                     }
-                    .instagram {
-                        width: 61px;
-                        height: 59px;}
-                }
+                     }
             }
         }
     }    
