@@ -200,7 +200,7 @@ main{
     }
     .card-pages {
         margin: 1.5rem;
-        .card-pages img {
+        img {
             width: 200px;
             height: 200px;
         }
@@ -254,14 +254,15 @@ main{
     border-top: 2px solid rgba(157, 168, 177, 0.5);
     ul {display: flex;
         flex-direction: column;}
-        .footer-img {
-            width: 59px;
-            height: 59px;
-            margin: 0.2rem;
-            padding: 0.5rem;
+                
         
+    }
+    .footer-img {
+        width: 59px;
+        height: 59px;
+        margin: 0.2rem;
+        padding: 0.5rem;
         }
-        
         .footer-nos {
             text-decoration: none;
             color: white;
@@ -289,7 +290,6 @@ main{
         .formulario{
             padding: 0.5rem;
         }
-    }
     @media (max-width: 320px) {
     header {
         img {width: 9rem;}

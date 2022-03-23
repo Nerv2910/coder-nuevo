@@ -311,7 +311,7 @@ footer .formulario {
   }
 
   .slider {
-    width: 15rem;
+    display: none;
   }
 
   .card {
@@ -413,7 +413,7 @@ footer .formulario {
   }
 
   .slider {
-    width: 15rem;
+    display: none;
   }
 
   .card-container {
