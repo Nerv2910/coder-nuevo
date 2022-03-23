@@ -90,7 +90,7 @@ main .color {
   margin-bottom: 2rem;
   overflow: hidden;
 }
-.slider .slider > ul {
+.slider > ul {
   display: flex;
   padding: 0;
   width: 400%;
