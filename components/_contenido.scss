@@ -75,14 +75,14 @@ main{
             list-style: none;
             margin: 5px;
         }
-        li a:hover {
+        li a {
             background-color: grey;
             color: white;
             font-size: 1.5rem;
             padding: 10px 15px;
             text-decoration: none;
             border-radius: 10px;
-            background-color:blue;
+            
              
                 
         
@@ -109,7 +109,7 @@ main{
         animation: cambio 20s infinite alternate ease;
     }}
 .slider__img {
-        max-width: 350px;
+        max-width: 370px;
     }
 @keyframes cambio {
 
