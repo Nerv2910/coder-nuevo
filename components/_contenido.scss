@@ -82,9 +82,10 @@ main{
             padding: 10px 15px;
             text-decoration: none;
             border-radius: 10px;
+            :hover{ 
+                background-color:blue;
         }
-        .main-list li a:hover{ 
-            background-color:blue;
+     
         }
     }
     .color{
@@ -107,7 +108,7 @@ main{
         animation: cambio 20s infinite alternate ease;
     }}
 .slider__img {
-        max-width: 300px;
+        max-width: 350px;
     }
 @keyframes cambio {
 
