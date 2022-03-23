@@ -315,6 +315,9 @@ footer ul {
   .main-list li a {
     font-size: 0.7rem;
   }
+  .main-list main section div a img {
+    max-width: 75%;
+  }
 
   .slider {
     display: none;
