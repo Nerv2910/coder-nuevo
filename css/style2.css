@@ -236,12 +236,15 @@ main .color {
 }
 
 footer {
-  width: 100%;
-  background-color: grey;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+footer {
+  width: 100%;
+  background-color: grey;
   padding: 10px;
   border-top: 2px solid rgba(157, 168, 177, 0.5);
 }
