@@ -23,13 +23,16 @@ li {
 a {
     text-decoration: none;
 }
+@mixin cdb ($colors, $display, $borde) {
+    background-color: $colors;
+    display: $display;
+    padding: $borde;
+}
 header {
-    background-color: whitesmoke;
-    display: flex;
+    @include cdb(whitesmoke, flex, 10px );
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     border-bottom: 2px solid rgba(157, 168, 177, 0.5);
 
     img {
