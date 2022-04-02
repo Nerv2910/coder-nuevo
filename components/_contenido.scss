@@ -64,14 +64,24 @@ header {
         }
     }    
 }
+$mapa : (
+    direccion: row,
+    alineacion: center,
+    fuera: 5px,
+    colores: grey
+
+);
+    
+
+
 main{
     .main-list{
         display: flex;
-        flex-direction: row;
+        flex-direction: map-get(mapa, direccion );
         justify-content: space-between;
-        padding: 5px;
+        padding: map-get(mapa , fuera );
         margin: 1rem auto;
-        text-align: center;
+        text-align: map-get(mapa , alineacion );
         align-items: center;
         text-transform: uppercase;
         li{
@@ -79,7 +89,7 @@ main{
             margin: 5px;
         }
         li a {
-            background-color: grey;
+            background-color: map-get(mapa , colores );
             color: white;
             font-size: 1.5rem;
             padding: 10px 15px;
