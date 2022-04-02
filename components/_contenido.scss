@@ -24,7 +24,7 @@ a {
     text-decoration: none;
 }
 header {
-    background-color: whitesmoke;
+    background-color: $bg-header;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -243,13 +243,16 @@ main{
         li { font-size: 1.5rem;
             margin-top: 2rem;}}
     }
+    %disposicion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
     footer {
         width: 100%;
     background-color: grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @extend %disposicion ;
     padding: 10px;
     border-top: 2px solid rgba(157, 168, 177, 0.5);
     ul {display: flex;
