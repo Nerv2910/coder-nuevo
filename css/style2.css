@@ -26,10 +26,10 @@ a {
 header {
   background-color: whitesmoke;
   display: flex;
+  padding: 10px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
   border-bottom: 2px solid rgba(157, 168, 177, 0.5);
 }
 header img {
